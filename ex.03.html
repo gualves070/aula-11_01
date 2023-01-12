@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+</head>
+<body>
+
+    <h1>Média</h1>
+
+    <section id="Resultado">
+        <p>Aqui vai aparecer o resultado...</p>
+    </section>
+
+
+    <script>
+         var n1 = parseInt(prompt("digite a nota 1"))
+        var n2 = parseInt(prompt("digite a nota 2"))
+        var n3 = parseInt(prompt("digite a nota 3"))
+
+        var media = (n1+n2+n3)/3
+    
+     alert("A média é: " + media);
+
+     let res = window.document.getElementById(`resultado`)
+
+     res.innerHTML= `<p> A média apresentada ${media}</p>`
+            
+
+            
+    </script>
+    
+</body>
+</html>
